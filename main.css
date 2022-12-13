@@ -14,17 +14,36 @@ h1 {
   padding: 20px;                          /* відступ від границі до контенту */
   margin: 20px;                           /* відступ від границі до іншого елементу */
 }
+ /* Селектор за типом Maria*/
+h2{
+  font-style: italic;
+}
+
+/* Селектор за класом Maria*/
+.uppercase {
+  color: red;
+  font-family: "Courier New", monospace;
+}
 
 /* Селектор за класом */
 .main {
   color: yellow;
 }
 
+/* Селектор за ідентифікатором Maria*/
+#addNote{
+  color: red;
+  font-weight: bold;
+}
 /* Селектор за ідентифікатором */
 #hello {
   color: green;
 }
-
+/* Селектор за атрибутом Maria*/
+[value='Завантажити нагадування'] {
+  color: red;
+  font-weight: bold;
+  }
 /* Селектор за атрибутом */
 [alt='placeholder'] {
   border: solid red 5px;
@@ -33,6 +52,10 @@ h1 {
 /* "Комбінований" селектор*/
 a.link[href*=wikipedia] {
   background: green;
+}
+/* Комбінатор “ ” Maria*/
+form .button {
+  border: solid red 1px;
 }
 
 /* Комбінатор “,” */
@@ -79,4 +102,9 @@ li:last-child {
 
 li:nth-of-type(3n + 1) {
   background-color: grey
+}
+
+/* Псевдокласи Maria*/
+a[name='home']:hover {
+  background-color: #E0E0E0;
 }

@@ -31,3 +31,8 @@ document.getElementById('loadNotes').addEventListener('click', () => {
   request.open('GET', '_items.html', true);
   request.send();
 })
+// По кліку на кнопку, проскольте до початку сторінки.
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  }

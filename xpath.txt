@@ -1,0 +1,44 @@
+/* CSS Maria*/
+h2{
+  font-style: italic;
+}
+/* XPath Maria*/
+//h2
+
+/* CSS Maria*/
+.uppercase {
+  color: red;
+  font-family: "Courier New", monospace;
+}
+/* XPath Maria*/
+//span[contains(text(), 'перша')]
+
+/* CSS Maria*/
+#addNote{
+  color: red;
+  font-weight: bold;
+}
+/* XPath Maria*/
+//form[@class='formFormat']/input[@id='addNote']
+
+/* CSS Maria*/
+[value='Завантажити нагадування'] {
+  color: red;
+  font-weight: bold;
+  }
+/* XPath Maria*/
+//form[@class='formFormat']/input[@value='Завантажити нагадування']
+
+/* CSS Maria*/
+form .button {
+  border: solid red 1px;
+}
+/* XPath Maria*/
+//form[@class='formFormat']/input[@class='button']
+
+/* CSS Maria*/
+a[name='home']:hover {
+  background-color: #E0E0E0;
+}
+/* XPath Maria*/
+//div[@class='main']/a[@name='home']
